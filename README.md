@@ -23,7 +23,7 @@ cd customer-churn-prediction
 2:Create a virtual Environment:
 python -m venv venv
 venv\Scripts\activate    # Windows
-# or
+or
 source venv/bin/activate # Mac/Linux
 3:Install Dependencies:
 pip install -r requirements.txt
