@@ -17,7 +17,7 @@ Balancing the classes using StratifiedSplit to maintain distribution.
 No missing values were present in the dataset.
 Provide actionable insights based on feature importance and customer patterns.
 # ⚙️ How to Run
-1:Clone the repository:
+1:Clone the repository: \n
 git clone https://github.com/your-username/customer-churn-prediction.git
 cd customer-churn-prediction
 2:Create a virtual Environment:
