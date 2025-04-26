@@ -5,7 +5,7 @@ The dataset contains detailed information about 10,000 customers, including feat
 Demographics: Age, Gender, Geography
 Financial information: Balance, Credit Score, Estimated Salary
 Account activity: Number of products, Active membership status, Tenure (years with bank)
-Project Goals:
+# 🎯 Objective:
 Analyze and understand the key factors influencing customer churn.
 Develop an accurate machine learning model to predict churn.
 Visualize important relationships between features and customer behavior.
@@ -16,7 +16,7 @@ Splitting the data into training and testing sets (80% training, 20% testing).
 Balancing the classes using StratifiedSplit to maintain distribution.
 No missing values were present in the dataset.
 Provide actionable insights based on feature importance and customer patterns.
-How to Run:
+# ⚙️ How to Run
 1:Clone the repository:
 git clone https://github.com/your-username/customer-churn-prediction.git
 cd customer-churn-prediction
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 4:Run Code:
 python 1_EDA.py
 python 2_modeling.py
-Machine Learning Model
+# 🧠 Model Details
 Model Used: Random Forest Classifier
 Performance Metrics:
 Accuracy
@@ -38,7 +38,7 @@ Precision
 Recall
 F1-Score
 Confusion Matrix
-Visualizations:
+# 📊 Visualizations
 Churn Distribution
 Churn by Gender and Geography
 Correlation Heatmap
