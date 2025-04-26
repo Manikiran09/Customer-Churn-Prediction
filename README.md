@@ -22,9 +22,9 @@ git clone https://github.com/your-username/customer-churn-prediction.git.
 cd customer-churn-prediction.  
 2:Create a virtual Environment:  
 python -m venv venv  
-venv\Scripts\activate.      # Windows
+venv\Scripts\activate          #Windows
 or    
-source venv/bin/activate   # Mac/Linux
+source venv/bin/activate        # Mac/Linux
 3:Install Dependencies:  
 pip install -r requirements.txt  
 4:Run Code:  
