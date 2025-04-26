@@ -6,16 +6,16 @@ Demographics: Age, Gender, Geography
 Financial information: Balance, Credit Score, Estimated Salary
 Account activity: Number of products, Active membership status, Tenure (years with bank)
 # 🎯 Objective:
-Analyze and understand the key factors influencing customer churn.
-Develop an accurate machine learning model to predict churn.
-Visualize important relationships between features and customer behavior.
-The dataset underwent several important preprocessing steps:
-Removal of irrelevant columns (RowNumber, CustomerId, Surname) to avoid data leakage.
-Encoding categorical variables (Gender with Label Encoding, Geography with One-Hot Encoding).
-Splitting the data into training and testing sets (80% training, 20% testing).
-Balancing the classes using StratifiedSplit to maintain distribution.
-No missing values were present in the dataset.
-Provide actionable insights based on feature importance and customer patterns.
+Analyze and understand the key factors influencing customer churn.  
+Develop an accurate machine learning model to predict churn.  
+Visualize important relationships between features and customer behavior.  
+The dataset underwent several important preprocessing steps:  
+Removal of irrelevant columns (RowNumber, CustomerId, Surname) to avoid data leakage.  
+Encoding categorical variables (Gender with Label Encoding, Geography with One-Hot Encoding).  
+Splitting the data into training and testing sets (80% training, 20% testing).  
+Balancing the classes using StratifiedSplit to maintain distribution.  
+No missing values were present in the dataset.  
+Provide actionable insights based on feature importance and customer patterns.  
 # ⚙️ How to Run
 1:Clone the repository:.
 git clone https://github.com/your-username/customer-churn-prediction.git.
