@@ -25,8 +25,8 @@ python -m venv venv
 venv\Scripts\activate          #Windows
 or    
 source venv/bin/activate        # Mac/Linux
-3:Install Dependencies:  
-pip install -r requirements.txt  
+3:Install Dependencies:    
+pip install -r requirements.txt    
 4:Run Code:  
 python 1_EDA.py  
 python 2_modeling.py  
