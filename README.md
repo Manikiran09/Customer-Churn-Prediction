@@ -1,19 +1,21 @@
 Customer Churn Prediction
-Objective:
-The goal of this project is to predict whether a customer will discontinue a subscription-based service (churn) based on their account information and demographics.
-Early identification of customers at risk can help businesses take preventive actions.
-customer-churn-prediction/
-│
-├── data/
-│   └── Churn_Modelling.csv    # Dataset
-│
-├── 1_EDA.py                   # Exploratory Data Analysis
-├── 2_modeling.py               # Model Training and Evaluation
-├── README.md                   # Project Documentation
-├── requirements.txt            # Required Python packages
-Dataset:
-Source: Kaggle - Bank Customer Churn Prediction Dataset
-Description: 10,000 customers' demographic data, credit scores, balances, and churn labels
+Customer churn is one of the biggest challenges faced by businesses that rely on subscription-based services. Losing customers not only reduces immediate revenue but can also negatively impact brand loyalty and future growth. Identifying customers who are likely to leave — and understanding why they leave — can help companies take proactive steps to improve customer satisfaction and retention.
+In this project, we build a machine learning-based system to predict customer churn using a real-world dataset.
+The dataset contains detailed information about 10,000 customers, including features such as:
+Demographics: Age, Gender, Geography
+Financial information: Balance, Credit Score, Estimated Salary
+Account activity: Number of products, Active membership status, Tenure (years with bank)
+Project Goals:
+Analyze and understand the key factors influencing customer churn.
+Develop an accurate machine learning model to predict churn.
+Visualize important relationships between features and customer behavior.
+The dataset underwent several important preprocessing steps:
+Removal of irrelevant columns (RowNumber, CustomerId, Surname) to avoid data leakage.
+Encoding categorical variables (Gender with Label Encoding, Geography with One-Hot Encoding).
+Splitting the data into training and testing sets (80% training, 20% testing).
+Balancing the classes using StratifiedSplit to maintain distribution.
+No missing values were present in the dataset.
+Provide actionable insights based on feature importance and customer patterns.
 How to Run:
 1:Clone the repository:
 git clone https://github.com/your-username/customer-churn-prediction.git
