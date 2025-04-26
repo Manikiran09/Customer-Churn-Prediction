@@ -24,7 +24,7 @@ cd customer-churn-prediction.
 python -m venv venv  
 venv\Scripts\activate          #Windows
 or    
-source venv/bin/activate        # Mac/Linux
+source venv/bin/activate          # Mac/Linux  
 3:Install Dependencies:    
 pip install -r requirements.txt    
 4:Run Code:  
