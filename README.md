@@ -17,14 +17,14 @@ Balancing the classes using StratifiedSplit to maintain distribution.
 No missing values were present in the dataset.
 Provide actionable insights based on feature importance and customer patterns.
 # ⚙️ How to Run
-1:Clone the repository: \n
-git clone https://github.com/your-username/customer-churn-prediction.git
-cd customer-churn-prediction
+1:Clone the repository:.
+git clone https://github.com/your-username/customer-churn-prediction.git.
+cd customer-churn-prediction.
 2:Create a virtual Environment:
-python -m venv venv
-venv\Scripts\activate    # Windows
-or
-source venv/bin/activate # Mac/Linux
+python -m venv venv.
+venv\Scripts\activate.    # Windows
+or.
+source venv/bin/activate. # Mac/Linux
 3:Install Dependencies:
 pip install -r requirements.txt
 4:Run Code:
