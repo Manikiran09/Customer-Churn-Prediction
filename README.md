@@ -1,5 +1,5 @@
 Customer Churn Prediction
-Objective
+Objective:
 The goal of this project is to predict whether a customer will discontinue a subscription-based service (churn) based on their account information and demographics.
 Early identification of customers at risk can help businesses take preventive actions.
 customer-churn-prediction/
@@ -11,7 +11,6 @@ customer-churn-prediction/
 ├── 2_modeling.py               # Model Training and Evaluation
 ├── README.md                   # Project Documentation
 ├── requirements.txt            # Required Python packages
-
 Dataset:
 Source: Kaggle - Bank Customer Churn Prediction Dataset
 Description: 10,000 customers' demographic data, credit scores, balances, and churn labels
