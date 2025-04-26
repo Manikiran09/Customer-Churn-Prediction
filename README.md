@@ -48,5 +48,3 @@ Customers in Germany showed higher churn rates.
 Inactive members and those with high balance are more likely to leave.
 Acknowledgements
 Dataset by Shantanu Dhakad on Kaggle
-
-
